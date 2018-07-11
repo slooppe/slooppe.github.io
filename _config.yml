@@ -1,5 +1,4 @@
 webrick:
     headers:
-        Referrer-Policy: no-referrer
-        X-Frame-Options: SAMEORIGIN
-        X-XSS-Protection: 1
+        Access-Control-Allow-Origin: *
+        Custom-Header: Custom
