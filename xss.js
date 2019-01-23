@@ -1,1 +1,1 @@
-alert("loaded externally");
+alert(document.domain);
